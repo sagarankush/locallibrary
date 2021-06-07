@@ -1,5 +1,29 @@
+html, body {
+  margin:0px;
+  height:100%;
+}
+
 .sidebar-nav {
   margin-top: 20px;
   padding: 0;
   list-style: none;
+}
+
+.sidebar {
+  background-color: black;
+  height: max;
+  opacity: 80%;
+  color: blue; 
+}
+
+.main-container {
+  background-color:  #daff33;
+  opacity: 80%;
+  color: black;
+  min-height: 100vh;
+  height: max-content
+}
+
+a {
+  color: rgb(84, 84, 184);
 }
